@@ -34,13 +34,10 @@ def searchInput(TheData):
         
 
 def main():
-    print("Unsorted data:")
-    print()
+    print("Unsorted data:\n")
     OutputArray(TheData)
-    print()
     InsertionSort(TheData)
-    print("Sorted data:")
-    print()
+    print("\nSorted data:\n")
     OutputArray(TheData)
     
     searchInput(TheData)
